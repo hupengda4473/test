@@ -1,0 +1,14 @@
+{
+		"dbName": "wx_cover",
+		"filter": {
+			"status": 1
+		},
+		"search":"4ASDF",
+		"searchType": 1,
+		"order": {
+			"name": "time",
+			"type": "desc"
+		},
+		"pageIndex": 1,
+		"pageSize": 20
+	}

@@ -1,0 +1,17 @@
+{
+		"dbName": "pendent-images",
+		"filter": {
+			"state": true
+		},
+		"sort": {
+			"add_date": -1
+		},
+		"pageIndex": 1,
+		"pageSize": 20,
+		"lookup": {
+			"from": "pendent-categories",
+			"localField": "category_id",
+			"foreignField": "_id",
+			"as": "pendentCategoryList"
+		}
+	}

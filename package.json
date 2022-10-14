@@ -1,0 +1,111 @@
+{  	
+	"id": "wallpaper-xingchaobizhi",
+	"name": "星潮壁纸",
+	"version": "1.5.0",
+	"description": "星潮壁纸是一款由uniapp开发的双端云开发壁纸小程序，包括微信和QQ端小程序，小程序免服务器和域名，直接对接dcloud官网数据库使用。本程序包括壁纸下载，头像下载，套图下载，刘海壁纸制作，动态壁纸",
+	"keywords": [
+        "壁纸",
+        "最好看",
+        "套图",
+        "CPS",
+        "后台管理"
+    ],
+    "dcloudext": {
+        "sale": {
+            "regular": {
+                "price": "8.88"
+            },
+            "sourcecode": {
+                "price": "0.00"
+            }
+        },
+        "contact": {
+            "qq": "306862600"
+        },
+        "declaration": {
+            "ads": "无",
+            "data": "插件不采集任何数据",
+            "permissions": "无"
+        },
+        "npmurl": "",
+        "type": "unicloud-template-project"
+	},
+    "uni_modules": {  
+        "encrypt": [  
+            "uniCloud-aliyun/cloudfunctions/access_token/index.js",
+            "uniCloud-aliyun/cloudfunctions/user_authorize/index.js",
+            "uniCloud-aliyun/cloudfunctions/search_del/index.js",
+            "uniCloud-aliyun/cloudfunctions/zan_and_coll/index.js",
+            "uniCloud-aliyun/cloudfunctions/search_edit/index.js",
+            "uniCloud-aliyun/cloudfunctions/order_custom/index.js",
+            "uniCloud-aliyun/cloudfunctions/config_search/index.js",
+            "uniCloud-aliyun/cloudfunctions/search_count/index.js",
+            "uniCloud-aliyun/cloudfunctions/search_map/index.js",
+            "uniCloud-aliyun/cloudfunctions/search_list/index.js",
+            "uniCloud-aliyun/cloudfunctions/payment/index.js",
+            "uniCloud-aliyun/cloudfunctions/payment/random.js",
+            "uniCloud-aliyun/cloudfunctions/payment/requestData.js",
+            "uniCloud-aliyun/cloudfunctions/charge_add/index.js",
+            "uniCloud-aliyun/cloudfunctions/sign_add/index.js",
+            "uniCloud-aliyun/cloudfunctions/coupons_list/index.js",
+            "uniCloud-aliyun/cloudfunctions/search_index/index.js",
+            "uniCloud-aliyun/cloudfunctions/dynamic_api/index.js",
+            "uniCloud-aliyun/cloudfunctions/order_dynamic/index.js",
+            "uniCloud-aliyun/cloudfunctions/order_design/index.js",
+            "uniCloud-aliyun/cloudfunctions/order_photo/index.js",
+            "uniCloud-aliyun/cloudfunctions/search_index/index.js",
+			"uniCloud-aliyun/cloudfunctions/sec_check/index.js",
+			"uniCloud-aliyun/cloudfunctions/scrapy/index.js",
+			"uniCloud-aliyun/cloudfunctions/common/api/index.js"
+        ],
+        "platforms": {
+            "cloud": {
+                "tcb": "y",
+                "aliyun": "y"
+            },
+            "client": {
+                "Vue": {
+                    "vue2": "u",
+                    "vue3": "u"
+                },
+                "App": {
+                    "app-vue": "u",
+                    "app-nvue": "u"
+                },
+                "H5-mobile": {
+                    "Safari": "u",
+                    "Android Browser": "u",
+                    "微信浏览器(Android)": "u",
+                    "QQ浏览器(Android)": "u"
+                },
+                "H5-pc": {
+                    "Chrome": "u",
+                    "IE": "u",
+                    "Edge": "u",
+                    "Firefox": "u",
+                    "Safari": "u"
+                },
+                "小程序": {
+                    "微信": "y",
+                    "阿里": "u",
+                    "百度": "u",
+                    "字节跳动": "y",
+                    "QQ": "y"
+                },
+                "快应用": {
+                    "华为": "u",
+                    "联盟": "u"
+                }
+            }
+        },
+	"extends" : 
+	{
+		"sn" : "xNdUBb8NNk5jLbQ6Ci4bwFve5CdcNl2OQI1/jfKJdcoWCxHx5apq5+1Fcy0HtyUfVD4T4bdA/uBJmw/Jwo8MGTismnKaRjQXfQNMXyv0GI/3ihBDVPytXR5uz35cgBUm7Ac4+ATu3wH73QrOtJ5/mniL/XI5oecgdYF9VZJJIMd6RIz/hV2geT3VicSCuzUdoZSG6qJ87LpleweqMZrXzTF76Xtd/rcDVh3A80bhXQQhfBeeosSgI5BycOjI+zwU9WVgr59mmU3TzwChyBrcbrcLdSjRKylkZ//21oetzgjuVrIEEia1W3wiAID5VeJYpfHDLHLvYCNFDL7DH5PyOikt2O1U7S+zJpoIl0uloQNtQwfu1WBiLUBIk9C1vHOSb8NnHUhbszRlANswYzRDwB246LB6oQoO13dPvtdAeTzpUIomq66rcTHRAuw7NeQ2iFtmRIjWNamGs+8b9R9VLnrTgpY9pqmXAV/sXyyRx/ZtQXqAwRrvOZfidT8XFpUSn588DcIuDIyM+uPCQWkCUI3dxquU+SOxVM0u3v8Q9X+1Tiwk9mBUdDBa/GEDdc2vixyQJuY0ahoGXR2kzDicsvBVRRNMjSx9USNaYbtoCZhqC0RU8j17iSeE+f5TpccwaPJsBTsFoJSntLlaPqnfhgpvlmpjeOFqxStVkiRPfPfV7YwIKJ/33qxtD0g209zMQEc0l5bXoAAF11GbFiGy95juwnpqX4o11lnXEv5ujQmO+3DtBkXLXolKuUqThL+B3VEwwXNIbzOB2paebNeF0uj6c9HOecPKjm0GwJx4t0fimPLEEnk7JLhZRAVoQvUN1REm19WuAYDUG36/h15er48PRCAO6oTHRnecNCsyFuWoThqBU2IhZkFakSOjyg92psHVMZ2vLSWTbsDUupAY+OEvjRqDExQW35tU9jPJ3azAupgi9TSRM35BBQRZWpBwe5Me8zL33w1dvEGrfvRKOdyvvOoURw/NmOxtryrpGzStay6xToZGVJSvGxSiklGZM7SrOev+Nyrl+DO7DfSlY0uZ8DCd0wd0+AKQd3pIRo38AQ507cODw9lM90upIVnjaVEE3o9gpYE22IcJPg0tkjiLRRkck4CExIposaphpOdkn1U2VRDZApyasQj6mCLG1pNWwHgWIbCqboYp5gBlM7QkOCQ7sr4t62/1EvE0yc13kGCjCfjmVV+rqIhr5zLYQJD4TmkLeAV0w31By05b2eSaJFujivTq78yWnjLbPQtJVaih7PPSx5HwXlGFwflLa92nWts49emtdbdNlAPkzYeAl/N7VB4ZsAnNcjo92zedGgyRnYTRfhnXoMdIxW0H6N/9NPE+HpDCdF3sXNcpU1fDKLybf3mUViYK5Ca0x7I="
+	}
+    },
+    "displayName": "星潮壁纸",
+    "repository": "",
+    "engines": {
+        "HBuilderX": "^3.1.10"
+    }
+}

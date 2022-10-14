@@ -1,0 +1,5 @@
+// 本文件中的json内容将在云函数【运行】时作为参数传给云函数。
+// 配置教程参考：https://uniapp.dcloud.net.cn/uniCloud/quickstart?id=runparam
+{
+	"dbName": "wx_cover",	"deleteIdList":["6107b632b1e18c000133c818", "6107b6056311030001c6e39d", "6107b3937c33d500017b6f8d", "60f124eae76c810001492fef", "60f1246cdd395d0001be609a", "60f124041556970001353231", "60f1238c2c0a800001762695", "60f1236d47add10001a97add", "60f11feed3c94a0001a8c624", "60f0ff7fdd395d0001bc93c6"]
+}

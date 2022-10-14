@@ -1,0 +1,11 @@
+// 本文件中的json内容将在云函数【运行】时作为参数传给云函数。
+// 配置教程参考：https://uniapp.dcloud.net.cn/uniCloud/quickstart?id=runparam
+{    "keys":  [
+			"writeShow", "systemShow", "videoUnitId", "customUnitId", "qqRewardedVideoUnitId",
+			"qqUnitId", "qqBannerUnitId", "compressPicture", "isShenhe", "writeExam", "templateId",
+			"wxRewardedVideoUnitId", "bannerUnitId", "indexUiType","uiType", "appName", "ttInterstitiaId", "ttExcitation",
+			"ttBannerUnitId", "wxInterstitiaId", "pendantBg","ggShow","appLogo","gxShow","notice", "signIntegral", "inviteIntegral", "bangsShow",
+			"downIntegral", "adIntegral", "chargeShow", "coinShow", "designIntegral","useAliyunOss","aliurl","policy","accessKeyId","signature",
+			"Userui","userBg","useAliyunOss","aliurl","policy","accessKeyId","signature"
+		]
+}
